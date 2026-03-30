@@ -1,0 +1,53 @@
+nohup: ignoring input
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.example:codeLinkCore >----------------------
+[INFO] Building codeLinkCore 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.5:run (default-cli) > test-compile @ codeLinkCore >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ codeLinkCore ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ codeLinkCore ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 3 source files with javac [debug parameters release 21] to target/classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ codeLinkCore ---
+[INFO] skip non existing resourceDirectory /home/muani/IdeaProjects/codeLinkCore/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ codeLinkCore ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:4.0.5:run (default-cli) < test-compile @ codeLinkCore <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.5:run (default-cli) @ codeLinkCore ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.5)
+
+2026-03-29T00:38:48.697+05:00  INFO 158438 --- [codeLinkCore] [           main] o.c.c.CodeLinkCoreApplication            : Starting CodeLinkCoreApplication using Java 21.0.10 with PID 158438 (/home/muani/IdeaProjects/codeLinkCore/target/classes started by muani in /home/muani/IdeaProjects/codeLinkCore)
+2026-03-29T00:38:48.702+05:00  INFO 158438 --- [codeLinkCore] [           main] o.c.c.CodeLinkCoreApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-03-29T00:38:49.625+05:00  INFO 158438 --- [codeLinkCore] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-03-29T00:38:49.647+05:00  INFO 158438 --- [codeLinkCore] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-29T00:38:49.648+05:00  INFO 158438 --- [codeLinkCore] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.20]
+2026-03-29T00:38:49.714+05:00  INFO 158438 --- [codeLinkCore] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 943 ms
+2026-03-29T00:38:50.164+05:00  INFO 158438 --- [codeLinkCore] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-03-29T00:38:50.172+05:00  INFO 158438 --- [codeLinkCore] [           main] o.c.c.CodeLinkCoreApplication            : Started CodeLinkCoreApplication in 2.241 seconds (process running for 3.053)
+2026-03-29T00:39:44.641+05:00  INFO 158438 --- [codeLinkCore] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-29T00:39:44.641+05:00  INFO 158438 --- [codeLinkCore] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-29T00:39:44.643+05:00  INFO 158438 --- [codeLinkCore] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-29T01:08:23.253+05:00  INFO 158438 --- [codeLinkCore] [ionShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-29T01:08:23.265+05:00  INFO 158438 --- [codeLinkCore] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
