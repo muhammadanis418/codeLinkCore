@@ -87,4 +87,11 @@ graph TD
 
 ---
 ### 🤖 Agent in Action
-[Click here to watch the CodeLink Core Demo Video](docs/codelink_core.webm)
+
+<div align="center">
+  <video width="100%" controls poster="https://via.placeholder.com/800x450.png?text=CodeLink+Core+Demo+Preview">
+    <source src="docs/codelink_core.webm" type="video/webm">
+    Your browser does not support the video tag. 
+    <a href="docs/codelink_core.webm">Click here to download the video.</a>
+  </video>
+</div>
