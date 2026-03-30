@@ -87,7 +87,4 @@ graph TD
 
 ---
 ### 🤖 Agent in Action
-<video width="100%" controls>
-  <source src="docs/codelink_core.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+[Click here to watch the CodeLink Core Demo Video](docs/codelink_core.webm)
