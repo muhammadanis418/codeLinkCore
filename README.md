@@ -71,6 +71,20 @@ graph TD
    python3 -m venv .venv
    source .venv/bin/activate
 
+   
+2.  **Installation & Setup**:
+    1. Clone the repo: git clone ...
+
+    2. Set up Environment Variables:
+
+    3. Create a file named .env in the root directory.
+       * Obtain a free API key from the Groq Console at https://console.groq.com/.
+       * Add the following to your .env file:
+       
+    ```bash
+          GROQ_API_KEY= your_key_here 
+     ```
+
 ### 3. Run the Test Scenario
    Once both the Backend and Environment are ready, trigger the agent.
 
